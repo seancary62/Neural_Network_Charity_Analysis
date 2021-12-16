@@ -4,6 +4,12 @@
 In this module we learned about neural networks and deep learning. For this challenge we built neural network models to analyze a dataset on charitable donations.
 We used several parameters such as application type, income, and use case to determine whether a charity was successful.
 
+### Tools
+- Jupyter Notebook
+- sklearn
+- tensorflow
+- keras
+
 ## Results
 
 ### Data Preprocessing
@@ -23,7 +29,7 @@ Data Preprocessing:
         ASK_AMT
     - From the original data set, we also had the EIN number and the Name as columns. For the sake of the model these provided no benefit, so they were removed.
 
-### Compiling, Training, and Evaluating:
+### Compiling, Training, and Evaluating
 
 For the first model we used 3 layers total, 2 layers with relu as the activation function and an output layer with sigmoid as the activation function. The relu layers used 80 and 30 nodes while the sigmoid function had 1.
 
@@ -36,5 +42,8 @@ By using a 4-layer model with 2 tahn layers (100 and 70 nodes) and 2 sigmoid lay
 
 In total 3 attempts are recorded in the jupyter notebook file. An additional attempt was made using the Keras Tuner library; however, despite picking a potential model it was still less promising than the previously mentioned model.
 
-### Summary: 
+### Summary 
 Overall, I would have liked to have achieved a more accurate score with less epochs but there could have been several factors contributing to the loss. based on the tuner, I don't think there is much more that could have been done without further processing the data. Random Forest may have also been a potential alternative to neural networks in this case, especially as the input is tabular.
+
+### Contact
+Email: sean.cary62@gmail.com
